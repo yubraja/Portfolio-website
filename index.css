@@ -1,0 +1,25 @@
+.nav-bar{
+    border-color: aqua;
+    border-style: solid;
+    margin:20px;
+    border-radius: 25px;
+    padding: 30px 4px 30px;
+    
+    
+}
+a{
+    text-decoration: none;
+    margin :50px;
+    
+    
+}
+.nav-bar a{
+    font-size:x-large;
+}
+.content{
+    padding:50px;
+    
+}
+body{
+    background-color: red;
+}
