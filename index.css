@@ -1,25 +1,73 @@
 .nav-bar{
     border-color: aqua;
     border-style: solid;
-    margin:20px;
-    border-radius: 25px;
-    padding: 30px 4px 30px;
     
     
+    
+    position:sticky;
+    overflow:hidden;
+    height:50px;
+    width:auto;
+    background-color: rgb(93, 93, 255);
+    padding-top:20px;
+    border-radius: 10px;
+    
+
+    
+    
+}
+*{
+    margin:0px;
+    padding:0px;
 }
 a{
     text-decoration: none;
     margin :50px;
+    color:hotpink;
     
+    
+}
+a:hover{
+    color:indigo;
     
 }
 .nav-bar a{
     font-size:x-large;
+    
 }
 .content{
     padding:50px;
+    font-size:larger;
     
 }
 body{
-    background-color: red;
+    background-color:cornsilk;
+
+}
+p span{
+    font-size:60px;
+    
+}
+.link{
+    
+    position:fixed;
+    right:20px;
+    bottom:0px;
+    
+    
+}
+.active{
+    color:blue;
+}
+.linkdein{
+    list-style-image:url(".//Assets/linkdein.png");
+
+    width:50px;
+}
+.github{
+    list-style-image:url(".//Assets/github.png");
+}
+
+span a{
+    margin:auto 3px;
 }
