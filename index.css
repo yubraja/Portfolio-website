@@ -38,6 +38,10 @@ a:hover{
 .content{
     padding:50px;
     font-size:larger;
+    color:aqua;
+    position:absolute;
+    left:300px;
+    bottom: 300px;
     
 }
 body{
@@ -70,4 +74,7 @@ p span{
 
 span a{
     margin:auto 3px;
+}
+body{
+    background-image: url(".//stock-photo-125301449.jpg");
 }
