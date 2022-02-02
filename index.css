@@ -1,95 +1,199 @@
-.nav-bar{
-    border-color: aqua;
-    border-style: solid;
-    
-    
-    
-    /* position:sticky; */
-    /* overflow:hidden; */
-    /* height:50px; */
-    /* width:auto; */
-    background-color: rgb(93, 93, 255);
-    /* padding-top:20px; */
-    /* border-radius: 10px; */
-    
-
-    
-    
-}
 *{
     margin:0px;
     padding:0px;
+
+
 }
-a{
-    text-decoration: none;
-    margin :50px;
-    color:hotpink;
+
+/*all css for navigation bar*/
+.nav_bar{
+    border:5px solid violet;
+
+    border-radius: 15px;
+    height:67px;
     
-    
+    background-color: black;
+    border-radius: 15px;
+    position:sticky;
+    top:0px;
 }
-a:hover{
-    color:indigo;
+
+
+.nav_bar li{
+    float:left;
+    list-style-type: none;
+    text-align: center;
+    margin: auto 25px;
     
+    border-radius: 5px;
 }
-.nav-bar a{
-    font-size:xx-large;
-    
-}
-.content{
-    padding:50px;
-    font-size:larger;
+
+.nav_bar li a{
+    display: block;
     color:aqua;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: xx-large;
+}
+.nav_bar  span{
+    color:violet;
+
+
+}
+
+.nav_bar li:hover{
+    background-color: aqua;
+    border-radius: 5px;
+    
+    
+    
+}
+.nav_bar a:hover{
+    color:brown;
+}
+
+
+.nav_bar li a:active{
+    background-color:aquamarine;
+}
+.nav_bar li:focus{
+    background-color: greenyellow;
+}
+/*css for content*/
+
+.content{
+    height:90vh;
+    
+    
+    background-image:url(".//Assets/rame.jpg");
+}
+.content p{
     position:absolute;
-    left:300px;
-    bottom: 300px;
-    clear:both;
+    top:300px;
+    left:100px;
+    color:greenyellow;
+    font-size: 30px;
     
-}
-body{
-    background-color:cornsilk;
+   
 
 }
-p span{
-    font-size:60px;
-    
+.text span{
+    color: orangered;
+    font-size: 40px;
 }
+
 .link{
-    
     position:fixed;
-    right:20px;
-    bottom:20px;
-    
-    
+    top:600px;
+    right:15px;
 }
-.active{
-    color:blue;
-}
-.linkdein{
-    list-style-image:url(".//Assets/linkdein.png");
-
-    width:50px;
-}
-.github{
-    list-style-image:url(".//Assets/github.png");
+.link a{
+    font-size: 20px;
+    color:hotpink;
+    text-decoration: none;
 }
 
-span a{
-    margin:auto 1px;
+
+
+.link a:hover{
+    color:khaki;
 }
-body{
-    background-image: url(".//Assets/rame.jpg")
+
+
+
+/*css for media and button*/
+
+.media{
+    font-size:xxx-large;
+    position:absolute;
+    top:200px;
+    left:1460px;
+
+    
 }
-.icon{
-    margin:auto 70px;
-    height:50px;
-    width:50px;
+.media a{
+    color:aqua;
+    
+}
+.media div{
+    margin-top:20px;
+    border:1px solid white;
+    border-radius:10px;
+    background-color: black;
+}
+
+
+.media a:hover{
+    color:white;
+
+}
+.button{
+    position:absolute;
+    top:650px;
+    left:450px;
+    display: inline;
+    
+    
+    
+    
+    font-size: 40px;
+    
+}
+.button a{
+    text-decoration: none;
+    
+    /* background-color:rgb(25, 183, 231) ;
+    color:white; */
+    background-color: black;
+    color:aqua;
+    margin:20px;
+    border:1px solid white;
+}
+.button a:hover{
+    background-color:hotpink;
+    color:white;
+}
+
+
+
+
+
+
+
+/*css for gallery*/
+
+
+
+.img{
+    
+    margin:10px 10px;
     float:left;
     
-    
-    
-    
+    opacity: 0.3;
 }
-.icon a:hover{
-    background-color: violet;
+    
+    
+    
+
+body{
+    background-color:rgb(7, 7, 7);
+
+}
+.img img:hover{
+    height:600px;
+    width:450px;
+    transition-delay: 200ms;
 }
 
+
+
+
+   
+.img:hover{
+    opacity:1;
+}
+/* stuck at the end of the file */
+
+
+/* css for biodata */
